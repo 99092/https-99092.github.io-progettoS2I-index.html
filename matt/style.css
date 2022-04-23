@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: #EF76D2; 
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #EF76D2; 
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color:  #EF76D2; 
+    }
+  }
+
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    background-color: #EF76D2;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    filter: drop-shadow(3px 0px 3px #000000);
+  }
+  
+  .header {
+    background-color:  #EF76D2; 
+    height: 500px; 
+  }
+  
+  .about {
+    background-color: #ffffff;
+    height: 230px;
+  }
+  
+  .feature-1 {
+    background-color: #ffffff;
+    height: 230px;
+  }
+  
+  .feature-2 {
+    background-color:#EF76D2;
+    vertical-align: middle;
+    height: 150px;
+  }
+
+  nav {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-area {
+  list-style: none;
+  }
+  
+  .nav-area li {
+  display: inline-block;
+  padding: 0 15px;
+  }
+  
+  .nav-area li a{
+  transition: .3s;
+  }
+  
+  .btn-area {
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 5px;
+  }
+
+  h2 {
+    color: #000000;
+    font-family: "Oswald", "Arial", sans-serif;
+    text-align: center;
+    font-size: 115px;
+    position: relative;
+    font-weight: lighter;
+    word-spacing: 1px;
+    letter-spacing: 1.5px;
+    text-decoration: underline;     
+    text-decoration-color: rgb(0, 0, 0);
+  }
+
+  h4 {
+    font-family:  "Montserrat", "Arial", sans-serif;
+    color:black;
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+    position: relative;
+    letter-spacing: 1.5px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  /* unvisited link */
+  a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:visited {
+    color:black;
+  }
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(244, 180, 230);
+  }
+   
+  a {
+    font-family: "Montserrat", "Arial", sans-serif;
+    transition: .3s;
+    letter-spacing: 1.5px;
+    font-weight: 590;
+  }
+
+ 
